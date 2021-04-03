@@ -1,0 +1,140 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    top : 0%;
+    right: 0%;
+    left: 0%;
+    display: inline-flex;
+    background-color: rgb(160, 156, 156);
+}
+.left-container {
+    width : 70%;
+}
+.left-container ul, .right-container ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.left-container ul li, .right-container ul li{
+    margin : 20px;
+    font-size : 1.2rem;
+    font-weight : bolder;
+    text-transform: uppercase;
+}
+.left-container ul li a, .right-container ul li a {
+    text-decoration: none;
+    color : black;
+}
+.left-container ul li a:hover, .right-container ul li a:hover{
+    text-decoration: underline;
+}
+.main{
+    text-align: center;
+    margin : 10% 0%;
+}
+.label{
+    margin : 0%;
+    padding : 0%;
+}
+.form-container{
+    background-color: rgb(160, 156, 156);
+    border-radius: 4%;
+    margin : 0% 30%;
+    padding : 3%;
+}
+.each-input{
+    margin: 1%;
+    text-align: left;
+    padding : 0% 10%;
+    font-weight: 500;
+}
+.input-fields{
+    padding : 5px;
+    width : 100%;
+    border-radius: 5px;
+}
+.error-handler{
+    color : red;
+    width : 100%;
+    margin : 0%;
+    padding : 0%;
+    text-align : center;
+}
+.submit{
+    width : 100%;
+    padding : 5px;
+    color : white;
+    font-weight: bolder;
+    background-color: blue;
+    text-transform: uppercase;
+    border : solid white 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: transparent;
+    border: black solid 2px;
+    color : black;
+}
+.list-of-items{
+    list-style-type: none;
+    margin: 0%;
+    padding : 0%;
+}
+.each-list-item a{
+    display: block;
+    background-color : white;
+    margin : 2% 10%;
+    padding : 2%;
+    font-size : 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.question, .options{
+    text-align : left;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.all-questions-btn{
+    padding : 2%;
+    margin : 1% 0%;
+    font-weight : bolder;
+    cursor: pointer;
+    background-color : white;
+    border : solid black 1px;
+}
+.all-questions-btn:hover{
+    background-color: black;
+    color : white;
+    border : solid white 1px;
+}
+.results-table, .results-table tr, .results-table td{
+    border : 1px solid black;
+}
+.heading-row{
+    font-weight : bolder;
+}
+.results-table td{
+    padding: 10px;
+    margin : 10px;
+}
+#result-container{
+    margin : 0% 10%;
+    padding : 3%;
+}
+.list-of-correction{
+    font-weight: 400;
+    text-align: left;
+    padding : 0%;
+    margin : 2%;
+}
+.list-of-correction li{
+    margin : 10px 0%;
+}
+.correct-answer{
+    font-weight : bolder;
+}
